@@ -13,10 +13,11 @@
 		<FileVersion>1.0.0.1</FileVersion>
 		<AssemblyVersion>1.0.0.1</AssemblyVersion>
 		<Version>1.0.0.1</Version>
-		<PackageId>IPS.$(AssemblyName)</PackageId>
+		<PackageId>Xades.IPS.Moldova</PackageId>
 		<Copyright>S. Chesnokov</Copyright>
 		<RepositoryUrl>https://github.com/serg32m/IPS.Signature</RepositoryUrl>
 		<PackageTags>Xmldsig XAdES IPS</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

@@ -6,13 +6,17 @@
 		<IncludeSymbols>True</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<Title>IPS Moldova XAdES signature adding and verification</Title>
-		<Authors>CoreDev Team</Authors>
+		<Authors>S. Chesnokov</Authors>
 		<Company></Company>
 		<Description>XAdES-BES realization</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<FileVersion>1.0.0.1</FileVersion>
 		<AssemblyVersion>1.0.0.1</AssemblyVersion>
 		<Version>1.0.0.1</Version>
+		<PackageId>IPS.$(AssemblyName)</PackageId>
+		<Copyright>S. Chesnokov</Copyright>
+		<RepositoryUrl>https://github.com/serg32m/IPS.Signature</RepositoryUrl>
+		<PackageTags>Xmldsig XAdES IPS</PackageTags>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

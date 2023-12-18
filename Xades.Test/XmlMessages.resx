@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msg_2_sign" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;DataPDU xmlns="urn:cma:stp:xsd:stp.1.0"&gt;
+   &lt;Body&gt;
+      &lt;AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01"&gt;
+         &lt;Fr&gt;
+            &lt;FIId&gt;
+               &lt;FinInstnId&gt;
+                  &lt;BICFI&gt;AAAAYYZZ&lt;/BICFI&gt;
+               &lt;/FinInstnId&gt;
+            &lt;/FIId&gt;
+         &lt;/Fr&gt;
+         &lt;To&gt;
+            &lt;FIId&gt;
+               &lt;FinInstnId&gt;
+                  &lt;BICFI&gt;SYSTEMZZ&lt;/BICFI&gt;
+               &lt;/FinInstnId&gt;
+            &lt;/FIId&gt;
+         &lt;/To&gt;
+&lt;BizMsgIdr&gt;AAAAYYZZAXXX180217100120000001230&lt;/BizMsgIdr&gt;
+         &lt;MsgDefIdr&gt;pacs.008.001.08&lt;/MsgDefIdr&gt;
+         &lt;BizSvc&gt;IPS&lt;/BizSvc&gt;
+         &lt;CreDt&gt;2019-09-13T18:18:00Z&lt;/CreDt&gt;
+&lt;Sgntr&gt;
+         &lt;/Sgntr&gt;               &lt;/AppHdr&gt;
+      &lt;Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"&gt;
+         &lt;FIToFICstmrCdtTrf&gt;
+            &lt;GrpHdr&gt;
+               &lt;MsgId&gt;AAAAYYZZAXXX180217100120000001230&lt;/MsgId&gt;
+               &lt;CreDtTm&gt;2019-09-13T18:18:00&lt;/CreDtTm&gt;
+               &lt;NbOfTxs&gt;1&lt;/NbOfTxs&gt;
+               &lt;SttlmInf&gt;
+                  &lt;SttlmMtd&gt;CLRG&lt;/SttlmMtd&gt;
+               &lt;/SttlmInf&gt;
+            &lt;/GrpHdr&gt;
+            &lt;CdtTrfTxInf&gt;
+               &lt;PmtId&gt;
+                  &lt;EndToEndId&gt;NOTPROVIDED&lt;/EndToEndId&gt;
+                  &lt;TxId&gt;AAAAYYZZAXXX180217100120000001230&lt;/TxId&gt;
+               &lt;/PmtId&gt;
+               &lt;PmtTpInf&gt;
+                  &lt;ClrChanl&gt;RTNS&lt;/ClrChanl&gt;
+                  &lt;LclInstrm&gt;
+                     &lt;Prtry&gt;CSCT&lt;/Prtry&gt;
+                  &lt;/LclInstrm&gt;
+                  &lt;CtgyPurp&gt;
+                     &lt;Prtry&gt;001&lt;/Prtry&gt;
+                  &lt;/CtgyPurp&gt;
+               &lt;/PmtTpInf&gt;
+               &lt;IntrBkSttlmAmt Ccy="USD"&gt;71.12&lt;/IntrBkSttlmAmt&gt;
+               &lt;IntrBkSttlmDt&gt;2019-09-14&lt;/IntrBkSttlmDt&gt;
+               &lt;ChrgBr&gt;SLEV&lt;/ChrgBr&gt;
+               &lt;InstgAgt&gt;
+                  &lt;FinInstnId&gt;
+                     &lt;BICFI&gt;AAAAYYZZ&lt;/BICFI&gt;
+                  &lt;/FinInstnId&gt;
+               &lt;/InstgAgt&gt;
+               &lt;InstdAgt&gt;
+                  &lt;FinInstnId&gt;
+                     &lt;BICFI&gt;BBBBYYZZ&lt;/BICFI&gt;
+                  &lt;/FinInstnId&gt;
+               &lt;/InstdAgt&gt;
+               &lt;Dbtr&gt;
+                  &lt;Nm&gt;John Johnson&lt;/Nm&gt;
+               &lt;/Dbtr&gt;
+               &lt;DbtrAcct&gt;
+                  &lt;Id&gt;
+                     &lt;IBAN&gt;12345678998076&lt;/IBAN&gt;
+                  &lt;/Id&gt;
+               &lt;/DbtrAcct&gt;
+               &lt;DbtrAgt&gt;
+                  &lt;FinInstnId&gt;
+                     &lt;BICFI&gt;AAAAYYZZ&lt;/BICFI&gt;
+                     &lt;Othr&gt;
+                        &lt;Id&gt;200004&lt;/Id&gt;
+                        &lt;SchmeNm&gt;
+                           &lt;Prtry&gt;1700085041&lt;/Prtry&gt;
+                        &lt;/SchmeNm&gt;
+                     &lt;/Othr&gt;
+                  &lt;/FinInstnId&gt;
+               &lt;/DbtrAgt&gt;
+               &lt;DbtrAgtAcct&gt;
+                  &lt;Id&gt;
+                     &lt;IBAN&gt;89980761234567&lt;/IBAN&gt;
+                  &lt;/Id&gt;
+               &lt;/DbtrAgtAcct&gt;
+               &lt;CdtrAgt&gt;
+                  &lt;FinInstnId&gt;
+                     &lt;BICFI&gt;BBBBYYZZ&lt;/BICFI&gt;
+                     &lt;Othr&gt;
+                        &lt;Id&gt;210027&lt;/Id&gt;
+                        &lt;SchmeNm&gt;
+                           &lt;Prtry&gt;1400108191&lt;/Prtry&gt;
+                        &lt;/SchmeNm&gt;
+                     &lt;/Othr&gt;
+                  &lt;/FinInstnId&gt;
+               &lt;/CdtrAgt&gt;
+               &lt;CdtrAgtAcct&gt;
+                  &lt;Id&gt;
+                     &lt;IBAN&gt;98765432198765&lt;/IBAN&gt;
+                  &lt;/Id&gt;
+               &lt;/CdtrAgtAcct&gt;
+               &lt;Cdtr&gt;
+                  &lt;Nm&gt;Omega Jones&lt;/Nm&gt;
+               &lt;/Cdtr&gt;
+               &lt;CdtrAcct&gt;
+                  &lt;Id&gt;
+                     &lt;IBAN&gt;54637281908745&lt;/IBAN&gt;
+                  &lt;/Id&gt;
+               &lt;/CdtrAcct&gt;
+               &lt;InstrForNxtAgt&gt;
+                  &lt;InstrInf&gt;/BNF/Details&lt;/InstrInf&gt;
+               &lt;/InstrForNxtAgt&gt;
+               &lt;Purp&gt;
+                  &lt;Prtry&gt;5814&lt;/Prtry&gt;
+               &lt;/Purp&gt;
+               &lt;RgltryRptg&gt;
+                  &lt;Dtls&gt;
+                     &lt;Inf&gt;SOMEINFORMATIONABOUTPAYMENT-1&lt;/Inf&gt;
+                     &lt;Inf&gt;SOMEINFORMATIONABOUTPAYMENT-2&lt;/Inf&gt;
+                     &lt;Inf&gt;SOMEINFORMATIONABOUTPAYMENT-3&lt;/Inf&gt;
+                  &lt;/Dtls&gt;
+               &lt;/RgltryRptg&gt;
+               &lt;Tax&gt;
+                  &lt;Cdtr&gt;
+                     &lt;TaxId&gt;54020835021853&lt;/TaxId&gt;
+                  &lt;/Cdtr&gt;
+                  &lt;Dbtr&gt;
+                     &lt;TaxId&gt;90203875612954&lt;/TaxId&gt;
+                  &lt;/Dbtr&gt;
+               &lt;/Tax&gt;
+               &lt;RmtInf&gt;
+                  &lt;Ustrd&gt;INFORMATION&lt;/Ustrd&gt;
+                  &lt;Ustrd&gt;EXTRA INFO&lt;/Ustrd&gt;
+               &lt;/RmtInf&gt;
+            &lt;/CdtTrfTxInf&gt;
+         &lt;/FIToFICstmrCdtTrf&gt;
+      &lt;/Document&gt;
+   &lt;/Body&gt;
+&lt;/DataPDU&gt;</value>
+  </data>
+</root>

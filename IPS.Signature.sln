@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xades", "Xades\Xades.csproj", "{376876F1-AEFD-4795-9094-4BF902B26931}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xades.Test", "Xades.Test\Xades.Test.csproj", "{9AADA88D-075E-4450-A73A-3B41BD672FE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{376876F1-AEFD-4795-9094-4BF902B26931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376876F1-AEFD-4795-9094-4BF902B26931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376876F1-AEFD-4795-9094-4BF902B26931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376876F1-AEFD-4795-9094-4BF902B26931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AADA88D-075E-4450-A73A-3B41BD672FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AADA88D-075E-4450-A73A-3B41BD672FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AADA88D-075E-4450-A73A-3B41BD672FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AADA88D-075E-4450-A73A-3B41BD672FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23B4EFCC-2BAF-4D2E-A052-AA3A58A36C2E}
+	EndGlobalSection
+EndGlobal

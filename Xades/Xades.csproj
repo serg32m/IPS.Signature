@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<Title>IPS Moldova XAdES signature adding and verification</Title>
+		<Authors>CoreDev Team</Authors>
+		<Company></Company>
+		<Description>XAdES-BES realization</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<FileVersion>1.0.0.1</FileVersion>
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+		<Version>1.0.0.1</Version>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<Deterministic>False</Deterministic>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<Deterministic>False</Deterministic>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Shouldly" Version="4.2.1" />
+		<PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
